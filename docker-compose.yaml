@@ -1,0 +1,47 @@
+version: '3'
+
+services:
+
+  nginx:
+    build: 
+      context: nginx
+    networks: 
+      - mongoNET
+    tty: true
+    ports: 
+      - 8080:80 
+    depends_on: 
+      - api
+
+  api:
+    build: 
+      context: api
+    container_name: api
+    entrypoint: npm run start 
+    networks:
+      - mongoNET
+    ports:
+      - 3050:3050
+    links:
+      - mongo-db
+    tty: true
+    depends_on: 
+      - mongo-db
+
+  mongo-db:
+    image: mongo:5.0.1
+    container_name: mongodb
+    restart: on-failure
+    ports:
+      - 27017:27017
+      - 28017:28107
+    networks:
+      - mongoNET
+    environment:
+      - AUTH=no
+    volumes:
+      - ./mongo-db:/data/db   
+      
+networks: 
+  mongoNET:
+    driver: bridge
