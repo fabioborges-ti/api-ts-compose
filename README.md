@@ -68,7 +68,7 @@ private DB_URL = mongodb://mongo-db/notes-db;
 
 **notes-db**: esse será o nome do banco de dados no _MongoDb_ que será gerado automaticamente. Você pode alterar a vontade, porque não vai impactar em nada.
 
-### ⚙️Recursos da API
+### ⚙️ Recursos da API
 Como você pode ver é _**bemmm**_ básica!!!
 
 >  Action			| Endpoint
