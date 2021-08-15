@@ -8,7 +8,7 @@ Novamente; trata-se de uma aplicação simples para cadastro de notícias. Mesmo
 ### 🔥 Para baixar:
 
 ```js
-https://github.com/fabioborges-ti/api-ts-compose.git
+https://github.com/fabioborges-ti/webapi.node-ts-docker-compose
 ```
 
 ### 💻 Tecnologias
