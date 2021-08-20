@@ -102,7 +102,7 @@ Guarde isso com você que logo será útil 📌
 Agora que você já tem tudo... chegou a hora de testar. Novamente, abra seu terminal na pasta **_raiz_** da solução, digite o comando abaixo e aguarde o fim do processo ☕
 
 ```bash
-$ docker compose up -d 
+$ docker-compose up -d 
 ```
 O **_Docker_** vai baixar do seu repositório https://hub.docker.com todas as imagens mencionadas no arquivo do _compose_ (**_yaml_**). Depois, inicia a geração da imagem e por fim a geração do container. Em poucos instantes nosso container estará de pé 😲
 
