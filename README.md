@@ -1,4 +1,7 @@
 # Conteinerizando uma aplicação Node.js
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A intenção deste projeto é demonstrar uma alternativa simples, rápida e bem organizada, que podemos adotar para criar aplicações (desde as mais simples) ainda com uma proposta de arquitetura limpa. A ideia central é **_conteinerizar_** um aplicativo Node.js para desenvolvimento com o Docker Compose... só isso! 
 
 Novamente; trata-se de uma aplicação simples para cadastro de notícias. Mesmo assim, faremos uso de boas práticas de desenvolvimento.
